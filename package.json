@@ -1,0 +1,30 @@
+{
+  "name": "13thoctbatchpwai",
+  "version": "1.0.0",
+  "description": "this is playwright and AI project",
+  "keywords": [
+    "playwright",
+    "playwright-mcp"
+  ],
+  "license": "ISC",
+  "author": "movent ai",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node ./error-handling/try-catch.js",
+    "prepare": "husky",
+    "lint": "eslint .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6",
+    "eslint": "^10.14.0",
+    "eslint-config-prettier": "^10.1.8",
+    "fetch": "^1.1.0",
+    "husky": "^9.1.7",
+    "node-fetch": "^2.7.0",
+    "prettier": "^3.10.1",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
+    "typescript-eslint": "^8.72.2"
+  }
+}
