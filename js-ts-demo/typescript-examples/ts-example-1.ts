@@ -1,7 +1,7 @@
 
 // let message : string = "Hello"
 
-import test from "node:test"
+//import test from "node:test"
 
 // let age = 20
 // let isActive : boolean = false
@@ -31,7 +31,7 @@ interface User {
    isActive: boolean
 }
 
-let testUser : User = {
+const testUser : User = {
    id: 1,
    name: "Uday",
    email: "test@gmail.com",
@@ -56,13 +56,13 @@ enum OrderStatus {
 }
 
 const status1: OrderStatus = OrderStatus.Shipped
-// console.log(status1)
+ console.log(status1)
 
-//console.log(testUser.name)
+console.log(testUser.name)
 
-const {name, email} = testUser
+// const {name, email} = testUser
 
-// console.log(name)
+//  console.log(name)
 
 const {name: userName, email: userEmail} = testUser
 
